@@ -1,0 +1,412 @@
+2025-10-11 22:46:02,919 - Log file for this run: C:\Users\Karl\Documents\Works\School\COE187.1\cats_dogs\ai8x-training\logs\2025.10.11-224602\2025.10.11-224602.log
+2025-10-11 22:46:02,920 - Configuring device: MAX78000, simulate=False.
+2025-10-11 22:46:03,215 - 
+2025-10-11 22:46:03,216 - --------------------------------------------------------
+2025-10-11 22:46:03,216 - Logging to TensorBoard - remember to execute the server:
+2025-10-11 22:46:03,216 - > tensorboard --logdir='./logs'
+2025-10-11 22:46:03,216 - 
+2025-10-11 22:46:04,285 - Optimizer Type: <class 'torch.optim.adam.Adam'>
+2025-10-11 22:46:04,286 - Optimizer Args: {'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0.0, 'amsgrad': False, 'maximize': False, 'foreach': None, 'capturable': False, 'differentiable': False, 'fused': None}
+2025-10-11 22:46:06,509 - Reading compression schedule from: policies/schedule-catsdogs.yaml
+2025-10-11 22:46:06,856 - torch.compile() successful, mode=default, cache limit=8
+2025-10-11 22:46:06,857 - Dataset sizes:
+	training=20250
+	validation=2250
+	test=2498
+2025-10-11 22:46:06,857 - 
+
+2025-10-11 22:46:06,858 - Training epoch: 20250 samples (256 per mini-batch, world size: 1)
+2025-10-11 22:46:24,696 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7112.jpg
+2025-10-11 22:46:26,715 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\4833.jpg
+2025-10-11 22:46:27,620 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6718.jpg
+2025-10-11 22:46:35,668 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\140.jpg
+2025-10-11 22:46:36,787 - Epoch: [0][   10/   80]    Overall Loss 0.699979    Objective Loss 0.699979                                        LR 0.001000    Time 2.992650    
+2025-10-11 22:46:41,147 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\660.jpg
+2025-10-11 22:46:42,152 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7133.jpg
+2025-10-11 22:46:49,891 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\5604.jpg
+2025-10-11 22:47:01,555 - Epoch: [0][   20/   80]    Overall Loss 0.691320    Objective Loss 0.691320                                        LR 0.001000    Time 2.726695    
+2025-10-11 22:47:03,162 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\9188.jpg
+2025-10-11 22:47:08,471 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10401.jpg
+2025-10-11 22:47:12,544 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10747.jpg
+2025-10-11 22:47:13,786 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2384.jpg
+2025-10-11 22:47:20,938 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\3491.jpg
+2025-10-11 22:47:21,607 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\7968.jpg
+2025-10-11 22:47:26,256 - Epoch: [0][   30/   80]    Overall Loss 0.683526    Objective Loss 0.683526                                        LR 0.001000    Time 2.635525    
+2025-10-11 22:47:28,882 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10404.jpg
+2025-10-11 22:47:38,135 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7459.jpg
+2025-10-11 22:47:44,288 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10820.jpg
+2025-10-11 22:47:45,925 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3136.jpg
+2025-10-11 22:47:48,369 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\3300.jpg
+2025-10-11 22:47:51,634 - Epoch: [0][   40/   80]    Overall Loss 0.680983    Objective Loss 0.680983                                        LR 0.001000    Time 2.605831    
+2025-10-11 22:47:58,156 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\5736.jpg
+2025-10-11 22:48:02,201 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\8470.jpg
+2025-10-11 22:48:02,651 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\7978.jpg
+2025-10-11 22:48:06,090 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9565.jpg
+2025-10-11 22:48:17,641 - Epoch: [0][   50/   80]    Overall Loss 0.677295    Objective Loss 0.677295                                        LR 0.001000    Time 2.600823    
+2025-10-11 22:48:31,303 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3288.jpg
+2025-10-11 22:48:40,101 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10158.jpg
+2025-10-11 22:48:41,741 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2688.jpg
+2025-10-11 22:48:42,380 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\1308.jpg
+2025-10-11 22:48:43,177 - Epoch: [0][   60/   80]    Overall Loss 0.672557    Objective Loss 0.672557                                        LR 0.001000    Time 2.589381    
+2025-10-11 22:48:45,331 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7369.jpg
+2025-10-11 22:48:52,497 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10125.jpg
+2025-10-11 22:48:58,312 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3588.jpg
+2025-10-11 22:48:58,554 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\936.jpg
+2025-10-11 22:48:59,475 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2877.jpg
+2025-10-11 22:49:02,946 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7969.jpg
+2025-10-11 22:49:05,160 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\5553.jpg
+2025-10-11 22:49:07,491 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9778.jpg
+2025-10-11 22:49:08,555 - Epoch: [0][   70/   80]    Overall Loss 0.669100    Objective Loss 0.669100                                        LR 0.001000    Time 2.579530    
+2025-10-11 22:49:09,389 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\850.jpg
+2025-10-11 22:49:14,750 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\11210.jpg
+2025-10-11 22:49:18,347 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10501.jpg
+2025-10-11 22:49:19,334 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\4367.jpg
+2025-10-11 22:49:23,094 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6238.jpg
+2025-10-11 22:49:31,693 - Epoch: [0][   80/   80]    Overall Loss 0.665730    Objective Loss 0.665730    Top1 62.411348    LR 0.001000    Time 2.544464    
+2025-10-11 22:49:31,718 - --- validate (epoch=0)-----------
+2025-10-11 22:49:31,720 - 2250 samples (256 per mini-batch)
+2025-10-11 22:49:32,993 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\2663.jpg
+2025-10-11 22:49:33,797 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\1866.jpg
+2025-10-11 22:49:40,663 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9171.jpg
+2025-10-11 22:49:49,959 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6059.jpg
+2025-10-11 22:49:50,416 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10797.jpg
+2025-10-11 22:49:50,624 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\8730.jpg
+2025-10-11 22:49:54,740 - Epoch: [0][    9/    9]    Loss 0.666334    Top1 59.022222    
+2025-10-11 22:49:55,240 - ==> Top1: 59.022    Loss: 0.666
+
+2025-10-11 22:49:55,241 - ==> Confusion:
+[[342 813]
+ [109 986]]
+
+2025-10-11 22:49:55,402 - ==> Best [Top1: 59.022   Params: 57776 on epoch: 0]
+2025-10-11 22:49:55,402 - Saving checkpoint to: logs\2025.10.11-224602\checkpoint.pth.tar
+2025-10-11 22:49:55,450 - 
+
+2025-10-11 22:49:55,451 - Training epoch: 20250 samples (256 per mini-batch, world size: 1)
+2025-10-11 22:50:02,969 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10820.jpg
+2025-10-11 22:50:03,054 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\5604.jpg
+2025-10-11 22:50:04,321 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3288.jpg
+2025-10-11 22:50:08,100 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\5553.jpg
+2025-10-11 22:50:10,838 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6238.jpg
+2025-10-11 22:50:21,664 - Epoch: [1][   10/   80]    Overall Loss 0.661856    Objective Loss 0.661856                                        LR 0.001000    Time 2.621311    
+2025-10-11 22:50:23,887 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\4367.jpg
+2025-10-11 22:50:40,865 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10401.jpg
+2025-10-11 22:50:42,206 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\850.jpg
+2025-10-11 22:50:45,740 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\7978.jpg
+2025-10-11 22:50:46,491 - Epoch: [1][   20/   80]    Overall Loss 0.650952    Objective Loss 0.650952                                        LR 0.001000    Time 2.542588    
+2025-10-11 22:50:57,607 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\140.jpg
+2025-10-11 22:50:59,212 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\5736.jpg
+2025-10-11 22:51:01,083 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7133.jpg
+2025-10-11 22:51:10,906 - Epoch: [1][   30/   80]    Overall Loss 0.641443    Objective Loss 0.641443                                        LR 0.001000    Time 2.503515    
+2025-10-11 22:51:14,490 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6718.jpg
+2025-10-11 22:51:14,953 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\936.jpg
+2025-10-11 22:51:15,062 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\3491.jpg
+2025-10-11 22:51:16,167 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9778.jpg
+2025-10-11 22:51:20,829 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\8470.jpg
+2025-10-11 22:51:25,136 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2384.jpg
+2025-10-11 22:51:27,445 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7969.jpg
+2025-10-11 22:51:36,058 - Epoch: [1][   40/   80]    Overall Loss 0.636575    Objective Loss 0.636575                                        LR 0.001000    Time 2.502731    
+2025-10-11 22:51:41,492 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2688.jpg
+2025-10-11 22:51:42,068 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\660.jpg
+2025-10-11 22:51:44,591 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3588.jpg
+2025-10-11 22:51:55,239 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\1308.jpg
+2025-10-11 22:52:00,736 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10125.jpg
+2025-10-11 22:52:00,914 - Epoch: [1][   50/   80]    Overall Loss 0.632768    Objective Loss 0.632768                                        LR 0.001000    Time 2.495877    
+2025-10-11 22:52:02,953 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\4833.jpg
+2025-10-11 22:52:08,008 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10158.jpg
+2025-10-11 22:52:09,640 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\3300.jpg
+2025-10-11 22:52:17,228 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7112.jpg
+2025-10-11 22:52:25,832 - Epoch: [1][   60/   80]    Overall Loss 0.629707    Objective Loss 0.629707                                        LR 0.001000    Time 2.492978    
+2025-10-11 22:52:29,298 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2877.jpg
+2025-10-11 22:52:32,317 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10747.jpg
+2025-10-11 22:52:39,532 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\11210.jpg
+2025-10-11 22:52:40,560 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9565.jpg
+2025-10-11 22:52:47,404 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7369.jpg
+2025-10-11 22:52:50,456 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3136.jpg
+2025-10-11 22:52:52,127 - Epoch: [1][   70/   80]    Overall Loss 0.624754    Objective Loss 0.624754                                        LR 0.001000    Time 2.509862    
+2025-10-11 22:52:54,654 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10501.jpg
+2025-10-11 22:52:55,325 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\9188.jpg
+2025-10-11 22:53:01,367 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\7968.jpg
+2025-10-11 22:53:10,993 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7459.jpg
+2025-10-11 22:53:12,347 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10404.jpg
+2025-10-11 22:53:15,678 - Epoch: [1][   80/   80]    Overall Loss 0.620836    Objective Loss 0.620836    Top1 66.312057    LR 0.001000    Time 2.488096    
+2025-10-11 22:53:15,708 - --- validate (epoch=1)-----------
+2025-10-11 22:53:15,712 - 2250 samples (256 per mini-batch)
+2025-10-11 22:53:16,025 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\2663.jpg
+2025-10-11 22:53:18,168 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9171.jpg
+2025-10-11 22:53:18,830 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\1866.jpg
+2025-10-11 22:53:29,907 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6059.jpg
+2025-10-11 22:53:31,470 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\8730.jpg
+2025-10-11 22:53:32,493 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10797.jpg
+2025-10-11 22:53:38,281 - Epoch: [1][    9/    9]    Loss 0.604478    Top1 67.111111    
+2025-10-11 22:53:38,619 - ==> Top1: 67.111    Loss: 0.604
+
+2025-10-11 22:53:38,620 - ==> Confusion:
+[[732 423]
+ [317 778]]
+
+2025-10-11 22:53:38,677 - ==> Best [Top1: 67.111   Params: 57776 on epoch: 1]
+2025-10-11 22:53:38,677 - Saving checkpoint to: logs\2025.10.11-224602\checkpoint.pth.tar
+2025-10-11 22:53:38,706 - 
+
+2025-10-11 22:53:38,706 - Training epoch: 20250 samples (256 per mini-batch, world size: 1)
+2025-10-11 22:53:39,354 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10501.jpg
+2025-10-11 22:53:40,084 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\850.jpg
+2025-10-11 22:53:46,351 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\8470.jpg
+2025-10-11 22:53:50,539 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2688.jpg
+2025-10-11 22:53:53,630 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2877.jpg
+2025-10-11 22:53:58,049 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10401.jpg
+2025-10-11 22:53:59,397 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\140.jpg
+2025-10-11 22:54:01,441 - Epoch: [2][   10/   80]    Overall Loss 0.581888    Objective Loss 0.581888                                        LR 0.001000    Time 2.273376    
+2025-10-11 22:54:06,692 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\5736.jpg
+2025-10-11 22:54:19,371 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\7968.jpg
+2025-10-11 22:54:26,395 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2384.jpg
+2025-10-11 22:54:26,703 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7369.jpg
+2025-10-11 22:54:28,638 - Epoch: [2][   20/   80]    Overall Loss 0.595146    Objective Loss 0.595146                                        LR 0.001000    Time 2.488804    
+2025-10-11 22:54:43,290 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\936.jpg
+2025-10-11 22:54:44,166 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\9188.jpg
+2025-10-11 22:54:49,757 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7133.jpg
+2025-10-11 22:54:50,485 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7112.jpg
+2025-10-11 22:54:51,311 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\11210.jpg
+2025-10-11 22:54:54,830 - Epoch: [2][   30/   80]    Overall Loss 0.587932    Objective Loss 0.587932                                        LR 0.001000    Time 2.527084    
+2025-10-11 22:54:55,134 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10125.jpg
+2025-10-11 22:54:56,206 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6718.jpg
+2025-10-11 22:55:06,983 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3136.jpg
+2025-10-11 22:55:10,045 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3288.jpg
+2025-10-11 22:55:14,980 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7459.jpg
+2025-10-11 22:55:22,333 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\5553.jpg
+2025-10-11 22:55:25,932 - Epoch: [2][   40/   80]    Overall Loss 0.586264    Objective Loss 0.586264                                        LR 0.001000    Time 2.668999    
+2025-10-11 22:55:26,709 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6238.jpg
+2025-10-11 22:55:44,185 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\4833.jpg
+2025-10-11 22:55:44,886 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3588.jpg
+2025-10-11 22:55:46,361 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7969.jpg
+2025-10-11 22:55:55,926 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\5604.jpg
+2025-10-11 22:55:57,995 - Epoch: [2][   50/   80]    Overall Loss 0.584513    Objective Loss 0.584513                                        LR 0.001000    Time 2.772086    
+2025-10-11 22:56:00,818 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\3491.jpg
+2025-10-11 22:56:06,556 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10820.jpg
+2025-10-11 22:56:09,037 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9778.jpg
+2025-10-11 22:56:11,966 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\7978.jpg
+2025-10-11 22:56:13,372 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10747.jpg
+2025-10-11 22:56:16,956 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\660.jpg
+2025-10-11 22:56:24,681 - Epoch: [2][   60/   80]    Overall Loss 0.582749    Objective Loss 0.582749                                        LR 0.001000    Time 2.751933    
+2025-10-11 22:56:28,288 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10158.jpg
+2025-10-11 22:56:42,804 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9565.jpg
+2025-10-11 22:56:44,654 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\1308.jpg
+2025-10-11 22:56:49,040 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\3300.jpg
+2025-10-11 22:56:50,390 - Epoch: [2][   70/   80]    Overall Loss 0.582700    Objective Loss 0.582700                                        LR 0.001000    Time 2.723005    
+2025-10-11 22:56:52,526 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\4367.jpg
+2025-10-11 22:56:57,454 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10404.jpg
+2025-10-11 22:57:14,734 - Epoch: [2][   80/   80]    Overall Loss 0.582535    Objective Loss 0.582535    Top1 69.148936    LR 0.001000    Time 2.684973    
+2025-10-11 22:57:14,772 - --- validate (epoch=2)-----------
+2025-10-11 22:57:14,773 - 2250 samples (256 per mini-batch)
+2025-10-11 22:57:16,480 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6059.jpg
+2025-10-11 22:57:27,412 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9171.jpg
+2025-10-11 22:57:27,776 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\2663.jpg
+2025-10-11 22:57:31,208 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10797.jpg
+2025-10-11 22:57:32,110 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\8730.jpg
+2025-10-11 22:57:35,076 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\1866.jpg
+2025-10-11 22:57:38,266 - Epoch: [2][    9/    9]    Loss 0.570462    Top1 71.422222    
+2025-10-11 22:57:38,613 - ==> Top1: 71.422    Loss: 0.570
+
+2025-10-11 22:57:38,615 - ==> Confusion:
+[[948 207]
+ [436 659]]
+
+2025-10-11 22:57:38,709 - ==> Best [Top1: 71.422   Params: 57776 on epoch: 2]
+2025-10-11 22:57:38,710 - Saving checkpoint to: logs\2025.10.11-224602\checkpoint.pth.tar
+2025-10-11 22:57:38,738 - 
+
+2025-10-11 22:57:38,738 - Training epoch: 20250 samples (256 per mini-batch, world size: 1)
+2025-10-11 22:57:40,312 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\936.jpg
+2025-10-11 22:57:41,766 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\3300.jpg
+2025-10-11 22:57:49,005 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\850.jpg
+2025-10-11 22:57:50,627 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10125.jpg
+2025-10-11 22:57:51,830 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\8470.jpg
+2025-10-11 22:57:58,568 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\5604.jpg
+2025-10-11 22:57:59,300 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9778.jpg
+2025-10-11 22:58:04,011 - Epoch: [3][   10/   80]    Overall Loss 0.567368    Objective Loss 0.567368                                        LR 0.001000    Time 2.527165    
+2025-10-11 22:58:08,230 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\5553.jpg
+2025-10-11 22:58:20,731 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\11210.jpg
+2025-10-11 22:58:21,457 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\140.jpg
+2025-10-11 22:58:22,346 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\660.jpg
+2025-10-11 22:58:30,368 - Epoch: [3][   20/   80]    Overall Loss 0.558724    Objective Loss 0.558724                                        LR 0.001000    Time 2.571650    
+2025-10-11 22:58:44,442 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9565.jpg
+2025-10-11 22:58:46,954 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2384.jpg
+2025-10-11 22:58:49,048 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7969.jpg
+2025-10-11 22:58:55,406 - Epoch: [3][   30/   80]    Overall Loss 0.559690    Objective Loss 0.559690                                        LR 0.001000    Time 2.543934    
+2025-10-11 22:58:56,328 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\5736.jpg
+2025-10-11 22:59:06,158 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10158.jpg
+2025-10-11 22:59:21,544 - Epoch: [3][   40/   80]    Overall Loss 0.552465    Objective Loss 0.552465                                        LR 0.001000    Time 2.556608    
+2025-10-11 22:59:26,397 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3588.jpg
+2025-10-11 22:59:29,700 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2688.jpg
+2025-10-11 22:59:32,667 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10747.jpg
+2025-10-11 22:59:46,874 - Epoch: [3][   50/   80]    Overall Loss 0.546923    Objective Loss 0.546923                                        LR 0.001000    Time 2.548702    
+2025-10-11 22:59:49,503 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10820.jpg
+2025-10-11 22:59:57,740 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7369.jpg
+2025-10-11 22:59:58,073 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\9188.jpg
+2025-10-11 22:59:59,131 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\4833.jpg
+2025-10-11 23:00:10,211 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7112.jpg
+2025-10-11 23:00:12,324 - Epoch: [3][   60/   80]    Overall Loss 0.548927    Objective Loss 0.548927                                        LR 0.001000    Time 2.544777    
+2025-10-11 23:00:13,888 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7133.jpg
+2025-10-11 23:00:17,823 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2877.jpg
+2025-10-11 23:00:20,113 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10404.jpg
+2025-10-11 23:00:25,388 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\7978.jpg
+2025-10-11 23:00:25,453 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3288.jpg
+2025-10-11 23:00:28,373 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10401.jpg
+2025-10-11 23:00:29,332 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10501.jpg
+2025-10-11 23:00:30,061 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\3491.jpg
+2025-10-11 23:00:30,081 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6718.jpg
+2025-10-11 23:00:31,190 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\4367.jpg
+2025-10-11 23:00:37,497 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3136.jpg
+2025-10-11 23:00:39,037 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7459.jpg
+2025-10-11 23:00:40,651 - Epoch: [3][   70/   80]    Overall Loss 0.546487    Objective Loss 0.546487                                        LR 0.001000    Time 2.583578    
+2025-10-11 23:00:41,331 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\1308.jpg
+2025-10-11 23:00:46,033 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\7968.jpg
+2025-10-11 23:00:58,647 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6238.jpg
+2025-10-11 23:01:06,471 - Epoch: [3][   80/   80]    Overall Loss 0.543955    Objective Loss 0.543955    Top1 76.595745    LR 0.001000    Time 2.580666    
+2025-10-11 23:01:06,505 - --- validate (epoch=3)-----------
+2025-10-11 23:01:06,506 - 2250 samples (256 per mini-batch)
+2025-10-11 23:01:13,888 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\1866.jpg
+2025-10-11 23:01:14,439 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9171.jpg
+2025-10-11 23:01:19,656 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6059.jpg
+2025-10-11 23:01:20,841 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10797.jpg
+2025-10-11 23:01:24,156 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\8730.jpg
+2025-10-11 23:01:25,963 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\2663.jpg
+2025-10-11 23:01:32,006 - Epoch: [3][    9/    9]    Loss 0.588367    Top1 68.488889    
+2025-10-11 23:01:32,368 - ==> Top1: 68.489    Loss: 0.588
+
+2025-10-11 23:01:32,368 - ==> Confusion:
+[[543 612]
+ [ 97 998]]
+
+2025-10-11 23:01:32,430 - ==> Best [Top1: 71.422   Params: 57776 on epoch: 2]
+2025-10-11 23:01:32,431 - Saving checkpoint to: logs\2025.10.11-224602\checkpoint.pth.tar
+2025-10-11 23:01:32,440 - 
+
+2025-10-11 23:01:32,440 - Training epoch: 20250 samples (256 per mini-batch, world size: 1)
+2025-10-11 23:01:37,843 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6238.jpg
+2025-10-11 23:01:38,017 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10125.jpg
+2025-10-11 23:01:42,517 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10820.jpg
+2025-10-11 23:01:49,402 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10404.jpg
+2025-10-11 23:01:52,322 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\140.jpg
+2025-10-11 23:01:54,855 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\3491.jpg
+2025-10-11 23:01:55,307 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\4367.jpg
+2025-10-11 23:01:59,923 - Epoch: [4][   10/   80]    Overall Loss 0.532365    Objective Loss 0.532365                                        LR 0.001000    Time 2.748314    
+2025-10-11 23:02:05,813 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\936.jpg
+2025-10-11 23:02:07,039 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10747.jpg
+2025-10-11 23:02:07,876 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2877.jpg
+2025-10-11 23:02:09,362 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3288.jpg
+2025-10-11 23:02:14,417 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7459.jpg
+2025-10-11 23:02:24,898 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\5736.jpg
+2025-10-11 23:02:29,446 - Epoch: [4][   20/   80]    Overall Loss 0.527144    Objective Loss 0.527144                                        LR 0.001000    Time 2.843113    
+2025-10-11 23:02:42,580 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\5604.jpg
+2025-10-11 23:02:44,506 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\3300.jpg
+2025-10-11 23:02:46,815 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\5553.jpg
+2025-10-11 23:02:55,120 - Epoch: [4][   30/   80]    Overall Loss 0.516560    Objective Loss 0.516560                                        LR 0.001000    Time 2.745124    
+2025-10-11 23:02:55,581 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6718.jpg
+2025-10-11 23:02:59,000 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\8470.jpg
+2025-10-11 23:03:00,867 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7369.jpg
+2025-10-11 23:03:16,266 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\660.jpg
+2025-10-11 23:03:16,353 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2384.jpg
+2025-10-11 23:03:19,298 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10158.jpg
+2025-10-11 23:03:20,558 - Epoch: [4][   40/   80]    Overall Loss 0.514447    Objective Loss 0.514447                                        LR 0.001000    Time 2.689733    
+2025-10-11 23:03:21,241 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\11210.jpg
+2025-10-11 23:03:22,570 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\7968.jpg
+2025-10-11 23:03:34,310 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7133.jpg
+2025-10-11 23:03:45,754 - Epoch: [4][   50/   80]    Overall Loss 0.512975    Objective Loss 0.512975                                        LR 0.001000    Time 2.651415    
+2025-10-11 23:03:49,225 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9778.jpg
+2025-10-11 23:03:50,558 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9565.jpg
+2025-10-11 23:03:51,281 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3588.jpg
+2025-10-11 23:03:54,326 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\10501.jpg
+2025-10-11 23:04:05,103 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\9188.jpg
+2025-10-11 23:04:07,943 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7969.jpg
+2025-10-11 23:04:11,887 - Epoch: [4][   60/   80]    Overall Loss 0.509122    Objective Loss 0.509122                                        LR 0.001000    Time 2.641308    
+2025-10-11 23:04:14,562 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\7978.jpg
+2025-10-11 23:04:20,466 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\3136.jpg
+2025-10-11 23:04:21,025 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\7112.jpg
+2025-10-11 23:04:22,846 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\2688.jpg
+2025-10-11 23:04:23,946 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\4833.jpg
+2025-10-11 23:04:32,625 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10401.jpg
+2025-10-11 23:04:33,168 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\1308.jpg
+2025-10-11 23:04:37,518 - Epoch: [4][   70/   80]    Overall Loss 0.507991    Objective Loss 0.507991                                        LR 0.001000    Time 2.627435    
+2025-10-11 23:04:39,163 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\850.jpg
+2025-10-11 23:05:02,242 - Epoch: [4][   80/   80]    Overall Loss 0.504499    Objective Loss 0.504499    Top1 79.078014    LR 0.001000    Time 2.605412    
+2025-10-11 23:05:02,277 - --- validate (epoch=4)-----------
+2025-10-11 23:05:02,281 - 2250 samples (256 per mini-batch)
+2025-10-11 23:05:04,302 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\8730.jpg
+2025-10-11 23:05:11,029 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\6059.jpg
+2025-10-11 23:05:11,536 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\9171.jpg
+2025-10-11 23:05:18,737 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\1866.jpg
+2025-10-11 23:05:18,860 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\cats\2663.jpg
+2025-10-11 23:05:23,835 - [Warning] Skipping unreadable image: data\cats_vs_dogs\train\dogs\10797.jpg
+2025-10-11 23:05:25,040 - Epoch: [4][    9/    9]    Loss 0.468725    Top1 77.600000    
+2025-10-11 23:05:25,440 - ==> Top1: 77.600    Loss: 0.469
+
+2025-10-11 23:05:25,442 - ==> Confusion:
+[[911 244]
+ [260 835]]
+
+2025-10-11 23:05:25,568 - ==> Best [Top1: 77.600   Params: 57776 on epoch: 4]
+2025-10-11 23:05:25,569 - Saving checkpoint to: logs\2025.10.11-224602\checkpoint.pth.tar
+2025-10-11 23:05:25,613 - --- test (ckpt) ---------------------
+2025-10-11 23:05:25,614 - 2498 samples (256 per mini-batch)
+2025-10-11 23:05:27,354 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\cats\11874.jpg
+2025-10-11 23:05:27,433 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\dogs\11853.jpg
+2025-10-11 23:05:27,793 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\dogs\11675.jpg
+2025-10-11 23:05:28,052 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\cats\11565.jpg
+2025-10-11 23:05:29,749 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\dogs\11410.jpg
+2025-10-11 23:05:30,246 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\dogs\11849.jpg
+2025-10-11 23:05:30,824 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\cats\11935.jpg
+2025-10-11 23:05:33,952 - Test: [   10/   10]    Loss 0.438133    Top1 79.583667    
+2025-10-11 23:05:33,952 - ==> Top1: 79.584    Loss: 0.438
+
+2025-10-11 23:05:33,952 - ==> Confusion:
+[[1023  226]
+ [ 284  965]]
+
+2025-10-11 23:05:33,952 - --- test (best) ---------------------
+2025-10-11 23:05:33,955 - => loading checkpoint logs\2025.10.11-224602\best.pth.tar
+2025-10-11 23:05:34,017 - => Checkpoint contents:
++----------------------+-------------+-----------+
+| Key                  | Type        | Value     |
+|----------------------+-------------+-----------|
+| arch                 | str         | ai85cdnet |
+| compression_sched    | dict        |           |
+| epoch                | int         | 4         |
+| extras               | dict        |           |
+| optimizer_state_dict | dict        |           |
+| optimizer_type       | type        | Adam      |
+| state_dict           | OrderedDict |           |
++----------------------+-------------+-----------+
+
+2025-10-11 23:05:34,019 - => Checkpoint['extras'] contents:
++--------------+--------+---------+
+| Key          | Type   |   Value |
+|--------------+--------+---------|
+| best_epoch   | int    |     4   |
+| best_mAP     | int    |     0   |
+| best_top1    | float  |    77.6 |
+| current_mAP  | int    |     0   |
+| current_top1 | float  |    77.6 |
++--------------+--------+---------+
+
+2025-10-11 23:05:34,020 - Loaded compression schedule from checkpoint (epoch 4)
+2025-10-11 23:05:34,029 - => loaded 'state_dict' from checkpoint 'logs\2025.10.11-224602\best.pth.tar'
+2025-10-11 23:05:34,040 - torch.compile() successful, mode=default, cache limit=8
+2025-10-11 23:05:34,040 - 2498 samples (256 per mini-batch)
+2025-10-11 23:05:34,206 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\cats\11935.jpg
+2025-10-11 23:05:37,355 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\dogs\11853.jpg
+2025-10-11 23:05:37,454 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\cats\11874.jpg
+2025-10-11 23:05:38,505 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\dogs\11410.jpg
+2025-10-11 23:05:38,748 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\cats\11565.jpg
+2025-10-11 23:05:39,684 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\dogs\11675.jpg
+2025-10-11 23:05:40,566 - [Warning] Skipping unreadable image: data\cats_vs_dogs\test\dogs\11849.jpg
+2025-10-11 23:05:41,858 - Test: [   10/   10]    Loss 0.438960    Top1 79.583667    
+2025-10-11 23:05:41,859 - ==> Top1: 79.584    Loss: 0.439
+
+2025-10-11 23:05:41,859 - ==> Confusion:
+[[1023  226]
+ [ 284  965]]
+
+2025-10-11 23:05:41,868 - 
+2025-10-11 23:05:41,869 - Log file for this run: C:\Users\Karl\Documents\Works\School\COE187.1\cats_dogs\ai8x-training\logs\2025.10.11-224602\2025.10.11-224602.log

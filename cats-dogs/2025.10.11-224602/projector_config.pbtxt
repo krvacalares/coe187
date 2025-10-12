@@ -1,0 +1,50 @@
+embeddings {
+  tensor_name: "verification/embedding:00000"
+  metadata_path: "00000/verification%2fembedding\\metadata.tsv"
+  sprite {
+    image_path: "00000/verification%2fembedding\\sprite.png"
+    single_image_dim: 128
+    single_image_dim: 128
+  }
+  tensor_path: "00000/verification%2fembedding\\tensors.tsv"
+}
+embeddings {
+  tensor_name: "verification/embedding:00001"
+  metadata_path: "00001/verification%2fembedding\\metadata.tsv"
+  sprite {
+    image_path: "00001/verification%2fembedding\\sprite.png"
+    single_image_dim: 128
+    single_image_dim: 128
+  }
+  tensor_path: "00001/verification%2fembedding\\tensors.tsv"
+}
+embeddings {
+  tensor_name: "verification/embedding:00002"
+  metadata_path: "00002/verification%2fembedding\\metadata.tsv"
+  sprite {
+    image_path: "00002/verification%2fembedding\\sprite.png"
+    single_image_dim: 128
+    single_image_dim: 128
+  }
+  tensor_path: "00002/verification%2fembedding\\tensors.tsv"
+}
+embeddings {
+  tensor_name: "verification/embedding:00003"
+  metadata_path: "00003/verification%2fembedding\\metadata.tsv"
+  sprite {
+    image_path: "00003/verification%2fembedding\\sprite.png"
+    single_image_dim: 128
+    single_image_dim: 128
+  }
+  tensor_path: "00003/verification%2fembedding\\tensors.tsv"
+}
+embeddings {
+  tensor_name: "verification/embedding:00004"
+  metadata_path: "00004/verification%2fembedding\\metadata.tsv"
+  sprite {
+    image_path: "00004/verification%2fembedding\\sprite.png"
+    single_image_dim: 128
+    single_image_dim: 128
+  }
+  tensor_path: "00004/verification%2fembedding\\tensors.tsv"
+}
